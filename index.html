@@ -16,6 +16,14 @@
             font-family:Hack, Arial, Helvetica, sans-serif;
             font-size: 20px;
         }
+        #listamenu ul {
+            padding:0px;
+            margin:0px;
+            list-style:none;
+        }
+        #listamenu ul li { 
+            display: inline; 
+        }
         .branco{
             color:#cdcdcd;
         }
@@ -39,11 +47,13 @@
 <body>
     <h1 id="inicio"><a class="branco">C</a>ícero <a class="branco">A</a>dalberto <a class="branco">G</a>onçalves <a class="branco">F</a>erreira</h1>
     <p>Bem-vindo(a) ao meu mundo.</p>
-    <ul>
-        <li><a href="#foto">Quem eu sou</a>.</li>
-        <li><a href="#habilidades">Habilidades</a>.</li>
-        <li><a href="#atual">O que faço atualmente</a>.</li>
-    </ul>
+    <nav id="listamenu">
+        <ul>
+            <li><a href="#foto">Quem eu sou</a>.</li>
+            <li><a href="#habilidades">Habilidades</a>.</li>
+            <li><a href="#atual">O que faço atualmente</a>.</li>
+        </ul>
+    </nav>
     <br>
     <br>
     <img src="/image/20200412_155036.jpg" alt="selfie de perfil, sorrindo, cabelo samurai, e barbixa" width="300" id="foto">
