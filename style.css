@@ -1,0 +1,44 @@
+<style>
+        h1{
+            font-size: 2.5em;
+            font-weight: bold;
+            color:rgb(24, 146, 13);
+        }
+        body{
+            color:rgb(24, 146, 13);
+            background-color: black;
+            font-family:Hack, Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        #listamenu ul {
+            padding:0px;
+            margin:0px;
+            list-style:none;
+        }
+        #listamenu ul li { 
+            display: inline; 
+            padding: 2px 80px;
+            display: inline-block;
+        }
+        /*#listamenu ul li a {
+            padding: 2px 40px;
+            display: inline-block;*/
+        .branco{
+            color:#cdcdcd;
+        }
+        #prazer{
+            font-size: 1.1em;
+        }
+        #lista1{
+            font-style: italic;
+        }
+        #lista2{
+            font-size: 0.8em;
+        }
+        #lista3{
+            font-size: 0.7em;
+        }
+        #lista4{
+            font-size: 0.6em;
+        }
+    </style>
